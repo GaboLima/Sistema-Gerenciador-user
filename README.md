@@ -42,15 +42,25 @@ Um CRUD moderno, responsivo e seguro para gestão de usuários, feito com PHP, B
 
 ## 📸 Prints do Sistema
 
-| Login                | Dashboard             | Usuários                  |
-|----------------------|----------------------|---------------------------|
-| ![login](https://github.com/user-attachments/assets/4880aed6-9e4a-4d15-9a78-84fd031646bc)
+![login](https://github.com/user-attachments/assets/4880aed6-9e4a-4d15-9a78-84fd031646bc)
 
 ![dash](https://github.com/user-attachments/assets/04542335-b001-44a7-8128-0694ae6af430)
 
-
+![image](https://github.com/user-attachments/assets/89b25b86-7f05-4f19-b449-437ea4897211)
 
 
 
 ## 🗃️ Estrutura do Projeto
-
+/conexao.php
+/index.php
+/dashboard.php
+/login.php
+/usuario-create.php
+/usuario-edit.php
+/usuario-view.php
+/acoes.php
+/exportar.php
+/navbar.php
+/mensagem.php
+/styles.css
+/README.md
