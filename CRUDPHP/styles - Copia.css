@@ -1,0 +1,117 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    margin-top: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.card-header {
+    background: #4CAF50;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-header h4 {
+    margin: 0;
+}
+
+.add-user-btn {
+    padding: 0.5rem 1rem;
+    background: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: background 0.3s ease;
+}
+
+.add-user-btn:hover {
+    background: #0056b3;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 0.75rem;
+    text-align: left;
+}
+
+table th {
+    background: #f4f4f4;
+}
+
+.btn {
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 3px;
+    text-align: center;
+    display: inline-block;
+    font-size: 0.9rem;
+    margin-right: 0.5rem;
+    transition: background 0.3s ease;
+}
+
+.view-btn {
+    background: #17A2B8;
+}
+
+.view-btn:hover {
+    background: #117A8B;
+}
+
+.edit-btn {
+    background: #28A745;
+}
+
+.edit-btn:hover {
+    background: #1E7B34;
+}
+
+.delete-btn {
+    background: #DC3545;
+    border: none;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background: #C82333;
+}
+
+.inline-form {
+    display: inline;
+}
